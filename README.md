@@ -38,8 +38,8 @@ Docker Hub automated build. To use it, simply pull the images and start with the
 same flags you would use for the standalone version.
 
 ```
-$ docker pull karalabe/cloudflare-dyndns
-$ docker run -d --restart=always karalabe/cloudflare-dyndns [...]
+$ docker pull funkolab/cloudflare-dyndns
+$ docker run -d --restart=always funkolab/cloudflare-dyndns [...]
 ```
 
 Above we've also set a restart policy to always start up the DNS updates even in
