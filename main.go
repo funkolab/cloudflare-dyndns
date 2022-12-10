@@ -63,7 +63,7 @@ func main() {
 // only updated if they both match.
 func resolveAddress() (string, error) {
 	// Resolve the external address via whatismyipaddress.com
-	reply, err := http.Get("http://ipv4bot.whatismyipaddress.com")
+	reply, err := http.Get("http://ifconfig.me")
 	if err != nil {
 		return "", err
 	}
